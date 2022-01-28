@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Filter</title>
+
+    <script>
+
+        var ages = [13,16,18,19,23];
+        document.write(ages + "<br><br>");
+        var b = ages.filter(checkAdult);
+        document.write(b);
+
+        function checkAdult (age){
+
+            return age >= 18;
+        }
+    </script>
+</head>
+
+<body>
+    
+</body>
+</html>
